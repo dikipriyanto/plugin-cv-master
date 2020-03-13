@@ -23,7 +23,7 @@ class ClientController extends Controller
         }
 
         return response()->json([
-            'message' => 'succes',
+            'message' => 'success',
             'status' => true,
             'results' => $results
         ]);

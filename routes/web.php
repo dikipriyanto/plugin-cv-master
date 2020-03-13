@@ -54,6 +54,7 @@ Route::group(['middleware'=>'auth'],function(){
     Route::resource('/tim', 'TimController')->middleware('auth');
     Route::resource('/Clients', 'ClientController')->middleware('auth');
     Route::resource('/product', 'ProductController')->middleware('auth');
- 
+
+    Route::resource('projek', 'ProjekController');
     
 });

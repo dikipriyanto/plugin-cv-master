@@ -16,7 +16,11 @@
                     <li>
                       <a href="{{route('product.index')}}" class="text-active-green" id="sb-product"><i
                               class="zwicon-layout-4 text-green"></i>Produk</a>
-                  </li>
+                    </li>
+                    <li>
+                        <a class="text-active-blue" href="{{ route('projek.index') }}" id="sb-projek"><i
+                                class="zwicon-lan text-yellow"></i>Projek</a>
+                    </li>
                 </ul>
             </div>
         </aside>

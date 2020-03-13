@@ -35,9 +35,12 @@
 
             <input type="submit" value="Upload" class="btn btn-primary">
         </form>
-        <br>
+    </div>    
 
+</div>
 
+<div class="card">
+    <div class="card-body">
         <div class="table-responsive data-table">
             <table id="data-table" class="table">
                 <thead>
